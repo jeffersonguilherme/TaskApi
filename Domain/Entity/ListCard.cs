@@ -1,3 +1,5 @@
+using Domain.Enum;
+
 namespace Domain.Entity;
 
 public class ListCard{

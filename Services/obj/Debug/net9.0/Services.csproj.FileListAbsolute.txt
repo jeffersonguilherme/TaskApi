@@ -1,0 +1,12 @@
+/home/jefferson/Documentos/GitHub/TaskApi/Services/bin/Debug/net9.0/Services.deps.json
+/home/jefferson/Documentos/GitHub/TaskApi/Services/bin/Debug/net9.0/Services.dll
+/home/jefferson/Documentos/GitHub/TaskApi/Services/bin/Debug/net9.0/Services.pdb
+/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/Debug/net9.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/Debug/net9.0/Services.AssemblyInfoInputs.cache
+/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/Debug/net9.0/Services.AssemblyInfo.cs
+/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/Debug/net9.0/Services.csproj.CoreCompileInputs.cache
+/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/Debug/net9.0/Services.sourcelink.json
+/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/Debug/net9.0/Services.dll
+/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/Debug/net9.0/refint/Services.dll
+/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/Debug/net9.0/Services.pdb
+/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/Debug/net9.0/ref/Services.dll

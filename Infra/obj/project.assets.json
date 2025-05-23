@@ -1,26 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Application >= 1.0.0",
+      "Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\jefferson.silva\\.nuget\\packages\\": {}
+    "/home/jefferson/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jefferson.silva\\Music\\dotnetcurso\\modulo02\\Infra\\Infra.csproj",
+      "projectUniqueName": "/home/jefferson/Documentos/GitHub/TaskApi/Infra/Infra.csproj",
       "projectName": "Infra",
-      "projectPath": "C:\\Users\\jefferson.silva\\Music\\dotnetcurso\\modulo02\\Infra\\Infra.csproj",
-      "packagesPath": "C:\\Users\\jefferson.silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jefferson.silva\\Music\\dotnetcurso\\modulo02\\Infra\\obj\\",
+      "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Infra/Infra.csproj",
+      "packagesPath": "/home/jefferson/.nuget/packages/",
+      "outputPath": "/home/jefferson/Documentos/GitHub/TaskApi/Infra/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jefferson.silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/jefferson/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -31,7 +69,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/jefferson/Documentos/GitHub/TaskApi/Application/Application.csproj": {
+              "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Application/Application.csproj"
+            },
+            "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj": {
+              "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -44,7 +89,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -65,7 +110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

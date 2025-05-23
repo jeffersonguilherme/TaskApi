@@ -1,20 +1,83 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jefferson.silva\\Music\\dotnetcurso\\modulo02\\MinhaApi\\MinhaApi.csproj": {}
+    "/home/jefferson/Documentos/GitHub/TaskApi/MinhaApi/MinhaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jefferson.silva\\Music\\dotnetcurso\\modulo02\\MinhaApi\\MinhaApi.csproj": {
+    "/home/jefferson/Documentos/GitHub/TaskApi/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jefferson.silva\\Music\\dotnetcurso\\modulo02\\MinhaApi\\MinhaApi.csproj",
-        "projectName": "MinhaApi",
-        "projectPath": "C:\\Users\\jefferson.silva\\Music\\dotnetcurso\\modulo02\\MinhaApi\\MinhaApi.csproj",
-        "packagesPath": "C:\\Users\\jefferson.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jefferson.silva\\Music\\dotnetcurso\\modulo02\\MinhaApi\\obj\\",
+        "projectUniqueName": "/home/jefferson/Documentos/GitHub/TaskApi/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Application/Application.csproj",
+        "packagesPath": "/home/jefferson/.nuget/packages/",
+        "outputPath": "/home/jefferson/Documentos/GitHub/TaskApi/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jefferson.silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/jefferson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj",
+        "packagesPath": "/home/jefferson/.nuget/packages/",
+        "outputPath": "/home/jefferson/Documentos/GitHub/TaskApi/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jefferson/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +101,145 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jefferson/Documentos/GitHub/TaskApi/Infra/Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jefferson/Documentos/GitHub/TaskApi/Infra/Infra.csproj",
+        "projectName": "Infra",
+        "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Infra/Infra.csproj",
+        "packagesPath": "/home/jefferson/.nuget/packages/",
+        "outputPath": "/home/jefferson/Documentos/GitHub/TaskApi/Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jefferson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/jefferson/Documentos/GitHub/TaskApi/Application/Application.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Application/Application.csproj"
+              },
+              "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jefferson/Documentos/GitHub/TaskApi/MinhaApi/MinhaApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jefferson/Documentos/GitHub/TaskApi/MinhaApi/MinhaApi.csproj",
+        "projectName": "MinhaApi",
+        "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/MinhaApi/MinhaApi.csproj",
+        "packagesPath": "/home/jefferson/.nuget/packages/",
+        "outputPath": "/home/jefferson/Documentos/GitHub/TaskApi/MinhaApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jefferson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/jefferson/Documentos/GitHub/TaskApi/Application/Application.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Application/Application.csproj"
+              },
+              "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Domain/Domain.csproj"
+              },
+              "/home/jefferson/Documentos/GitHub/TaskApi/Infra/Infra.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Infra/Infra.csproj"
+              },
+              "/home/jefferson/Documentos/GitHub/TaskApi/Services/Services.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Services/Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -46,7 +247,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -72,7 +273,66 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jefferson/Documentos/GitHub/TaskApi/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jefferson/Documentos/GitHub/TaskApi/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/home/jefferson/Documentos/GitHub/TaskApi/Services/Services.csproj",
+        "packagesPath": "/home/jefferson/.nuget/packages/",
+        "outputPath": "/home/jefferson/Documentos/GitHub/TaskApi/Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jefferson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

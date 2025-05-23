@@ -1,6 +1,9 @@
+using Domain.Enum;
 namespace Domain.Entity;
 
-public class Card{
+
+public class Card
+{
     public Guid Id { get; set; }
     public string? Titlu { get; set; }
     public string? Description { get; set; }
