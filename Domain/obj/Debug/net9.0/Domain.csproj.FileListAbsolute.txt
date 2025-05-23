@@ -3,3 +3,10 @@
 /home/jefferson/Documentos/GitHub/TaskApi/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
 /home/jefferson/Documentos/GitHub/TaskApi/Domain/obj/Debug/net9.0/Domain.csproj.CoreCompileInputs.cache
 /home/jefferson/Documentos/GitHub/TaskApi/Domain/obj/Debug/net9.0/Domain.sourcelink.json
+/home/jefferson/Documentos/GitHub/TaskApi/Domain/bin/Debug/net9.0/Domain.deps.json
+/home/jefferson/Documentos/GitHub/TaskApi/Domain/bin/Debug/net9.0/Domain.dll
+/home/jefferson/Documentos/GitHub/TaskApi/Domain/bin/Debug/net9.0/Domain.pdb
+/home/jefferson/Documentos/GitHub/TaskApi/Domain/obj/Debug/net9.0/Domain.dll
+/home/jefferson/Documentos/GitHub/TaskApi/Domain/obj/Debug/net9.0/refint/Domain.dll
+/home/jefferson/Documentos/GitHub/TaskApi/Domain/obj/Debug/net9.0/Domain.pdb
+/home/jefferson/Documentos/GitHub/TaskApi/Domain/obj/Debug/net9.0/ref/Domain.dll
